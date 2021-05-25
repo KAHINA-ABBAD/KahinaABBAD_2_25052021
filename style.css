@@ -1,0 +1,182 @@
+/*----------- Body ------------*/
+
+body{
+	background-image: url("images/back1.jpg"); 
+	background-size: 100%;
+	background-attachment: fixed;
+	font-size: 90%;
+	line-height: 1.5;
+	text-align: left;
+	background-repeat:no-repeat;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.body{
+	margin: 10px auto;
+	width: 70%;
+	clear: both;
+}
+
+/*------------ mainheader --------------*/
+
+.mainHeader nav{
+	background-color: #00503c;
+	height: 45px;
+	border-radius: 6px;
+    -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	margin-top: 50px;
+}
+
+.mainHeader nav ul li{
+	color: white;
+	display: inline;
+	text-align: center;
+	font-weight: bolder;       
+}
+
+.mainHeader nav ul img {
+	height: 45px;
+	width: 45px;
+	vertical-align: middle;	
+}
+
+
+.mainHeader a:link , .mainHeader a:visited{
+	padding: 13px 40px;
+	padding-bottom: 16px;
+	color: white;
+
+}
+
+.mainHeader a:hover , .mainHeader a:active{
+	background-color: #006266;
+	border:1px;
+	border-radius: 10px 1px 10px 1px;
+	-webkit-border-radius: 10px 1px 10px 1px;
+	-moz-border-radius: 10px 1px 10px 1px;
+	
+}
+
+.mainContent{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 450px;
+	padding: 45px;
+	background: rgba(76, 209, 55,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+	border-radius: 10px;
+}
+
+.mainContent h1{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #0a3d62;
+	text-align: center;
+}
+
+.mainContent .inputBox{
+	position: relative;
+}
+
+.mainContent .inputBox input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #0a3d62;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #0a3d62;
+	outline: none;
+	background: transparent;
+}
+
+.mainContent .inputBox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: -20px 0;
+	font-size: 20px;
+	color: #0a3d62;
+	pointer-events: none;
+	transition: .8s;
+}
+
+/* quand on tape pour ecrire le nom et le password l'ecriture
+elle monte avec 18px et la couleur et la taille change */
+.mainContent .inputBox input:focus ~ label,
+.mainContent .inputBox input:valid ~ label{
+	top: -14px;
+	left: 0;
+	color: #0a3d62;
+	font-size: 18px;
+}
+
+.mainContent input[type="submit"]{
+	background: transparent;
+	border:none;
+	outline: none;
+	color:#006266;
+	font-size: 1em;
+	font-weight: bold;
+	background: #12CBC4;
+	padding: 15px 45px;
+	cursor: pointer;
+	border-radius: 5px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	
+}
+
+.mainContent .Box{
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.mainContentHome{
+	border: 1px solid #7f8fa6;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background-color: rgba(127, 143, 166, .5);
+	margin-top: 20px;
+	text-align: center; 
+}
+
+h1{
+	text-align: center;
+}
+
+#rg{
+	margin-right: 30px;
+}
+
+.forgetten {
+	margin: 50px 10px ;
+	vertical-align: middle;
+}
+
+.signUp{
+	font-size: 1em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

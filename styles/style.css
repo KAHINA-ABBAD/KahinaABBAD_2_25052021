@@ -1,177 +1,140 @@
-/*----------- Body ------------*/
+/* La police de site */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 body{
-	background-image: url("images/back1.jpg"); 
-	background-size: 100%;
-	background-attachment: fixed;
-	font-size: 90%;
-	line-height: 1.5;
-	text-align: left;
-	background-repeat:no-repeat;
-
+	font-family: 'Raleway', sans-serif;
+	margin: 10px;
+	padding: 10px;
 }
 
-a{
+.navBar {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.navList a{
+	
+    margin-right: 20px;
 	text-decoration: none;
-}
-
-
-.body{
-	margin: 10px auto;
-	width: 70%;
-	clear: both;
-}
-
-/*------------ mainheader --------------*/
-
-.mainHeader nav{
-	background-color: #00503c;
-	height: 45px;
-	border-radius: 6px;
-    -webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	margin-top: 50px;
-}
-
-.mainHeader nav ul li{
-	color: white;
-	display: inline;
-	text-align: center;
-	font-weight: bolder;       
-}
-
-.mainHeader nav ul img {
-	height: 45px;
-	width: 45px;
-	vertical-align: middle;	
-}
-
-
-.mainHeader a:link , .mainHeader a:visited{
-	padding: 13px 40px;
-	padding-bottom: 16px;
-	color: white;
-
-}
-
-.mainHeader a:hover , .mainHeader a:active{
-	background-color: #006266;
-	border:1px;
-	border-radius: 10px 1px 10px 1px;
-	-webkit-border-radius: 10px 1px 10px 1px;
-	-moz-border-radius: 10px 1px 10px 1px;
-	
-}
-
-.mainContent{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 450px;
-	padding: 45px;
-	background: rgba(76, 209, 55,.5);
-	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
-	border-radius: 10px;
-}
-
-.mainContent h1{
-	margin: 0 0 30px;
-	padding: 0;
-	color: #0a3d62;
-	text-align: center;
-}
-
-.mainContent .inputBox{
-	position: relative;
-}
-
-.mainContent .inputBox input {
-	width: 100%;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #0a3d62;
-	letter-spacing: 1px;
-	margin-bottom: 30px;
-	border: none;
-	border-bottom: 1px solid #0a3d62;
-	outline: none;
-	background: transparent;
-}
-
-.mainContent .inputBox label{
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: -20px 0;
 	font-size: 20px;
-	color: #0a3d62;
-	pointer-events: none;
-	transition: .8s;
 }
 
-/* quand on tape pour ecrire le nom et le password l'ecriture
-elle monte avec 18px et la couleur et la taille change */
-.mainContent .inputBox input:focus ~ label,
-.mainContent .inputBox input:valid ~ label{
-	top: -14px;
-	left: 0;
-	color: #0a3d62;
-	font-size: 18px;
+.titreBar{
+	color: black;
 }
 
-.mainContent input[type="submit"]{
-	background: transparent;
-	border:none;
-	outline: none;
-	color:#006266;
-	font-size: 1em;
+
+.navBar img {
+	width: 110px;
+	height: 50px;
+}
+
+.navList a:hover{
+	border-top: 2px solid #0065FC;
+	padding-top: 15px;
+	color:#0065FC ;
+}
+
+.navList a:focus{
+	border-top: 2px solid #0065FC;
+	padding-top: 15px;
+	color:#0065FC ;
+}
+
+.inscLien{
 	font-weight: bold;
-	background: #12CBC4;
-	padding: 15px 45px;
-	cursor: pointer;
-	border-radius: 5px;
-	float: right;
-	margin-right: 10px;
-	margin-top: 3px;
-	
-}
-
-.mainContent .Box{
-	margin-top: -10px;
-	margin-bottom: 10px;
-}
-
-.mainContentHome{
-	border: 1px solid #7f8fa6;
-	border-radius: 5px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	background-color: rgba(127, 143, 166, .5);
-	margin-top: 20px;
-	text-align: center; 
-}
-
-h1{
-	text-align: center;
-}
-
-#rg{
-	margin-right: 30px;
-}
-
-.forgetten {
-	margin: 50px 10px ;
-	vertical-align: middle;
-}
-
-.signUp{
-	font-size: 1em;
-	text-align: center;
+	color: #0065FC;
 }
 
 
+/* La barre de recherche */
+.rechBar{
+	display: flex;
+}
+
+.iconDiv{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F2F2F2 ;
+	border-top-left-radius: 10px ;
+	border-bottom-left-radius: 10px ;
+	width: 40px;
+	height: 40px;
+}
+.searchDiv{
+	height: 35px; 
+	width: 200px;
+	border: 1px solid #F2F2F2;	
+}
+
+.buttonDiv{
+	height: 40px;
+	width: 100px;
+	background-color: #0065FC ;
+	border-top-right-radius: 10px ;
+	border-bottom-right-radius: 10px ;
+	color: white;
+	font-weight: bold;
+	border-style: none;
+}
+
+input::placeholder{
+	padding-left: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+/* Les filtres */
+
+.filtrDiv{
+	display: flex;
+	justify-content:space-between;	
+	align-items: center;
+	width: 70%;
+}
+
+
+.filtreTexte{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	border: 2px solid #F2F2F2;
+	height: 38px;
+	border-radius: 30px ;
+	padding-right: 20px;
+}
+
+.iconeDiv{  
+	padding-left: 12px;
+	padding-top: 12px;
+	color: #0065FC;
+    background-color: #F2F2F2;
+	width: 30px;
+	height: 30px;
+	border-radius: 25px;
+	margin-right: 8px;
+}
+
+
+
+/*La section hébergements */ 
+.hebergSection {
+
+    display: flex;
+	justify-content:space-around;
+	/*align-items:center;*/
+
+	background-color: #F2F2F2;
+	/*width: 50px;*/
+	border-radius: 25px;
+}
+*
+.listHotel img {
+	width: 200px;
+}
 
 
 
@@ -180,3 +143,9 @@ h1{
 
 
 
+/*
+footer{
+	height: 100px;
+	background-color: #F2F2F2;
+}
+*/

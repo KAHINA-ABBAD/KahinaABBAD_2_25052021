@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 
 <head>
@@ -9,17 +8,18 @@
      <!--Insertion de la bibliothèque AWESOME-->
      <link rel="stylesheet" href="styles/style.css">
      <link rel="stylesheet" href="styles/all.min.css" >
+     <link rel="stylesheet" href="styles/mobile.css">
+     <link rel="stylesheet" href="styles/tablette.css">
+     <link rel="stylesheet" href="styles/desktop.css">
      <link rel="stylesheet" href="webfonts/">
 
      <title> Reservia </title>
-</head>
 
+</head>
 
 <body>
 
      <header>
-
-
           <!--Le menu de navigation-->
           <nav>
                <div class="navBar">
@@ -28,10 +28,13 @@
                     </div>
 
                     <div class="navList">
-                         <a href="#" class="titreBar"> Hébergements </a>
-                         <a href="#" class="titreBar"> Activités </a>
+                         
+                              <a href="#" class="titreBar"> Hébergements </a>
+                              <a href="#" class="titreBar"> Activités </a>
+                      
+                         
                          <a href="#" class="inscLien"> S'inscrire </a>
-                    </div>
+                    </div>                    
                </div>
           </nav>
 
@@ -40,8 +43,9 @@
                <h2>Trouvez votre hébergements pour des vacances de reve </h2>
                <p> En plein ville ou en plein nature</p>
           </div>
-
+          
      </header>
+
 
      <!--La barre de recherche -->
      <div class="rechBar">
@@ -53,7 +57,7 @@
 
      <!--Les filtres -->
      <div class="filtrDiv">
-          <h3>Filtres </h3>
+          <h3 class="filtreRecherche">Filtres </h3>
           <div class="filtreTexte"> <i class="fas fa-money-bill-wave iconeDiv "></i>Economique </div>
           <div class="filtreTexte"> <i class="fas fa-child iconeDiv"></i>Familial</div>
           <div class="filtreTexte"> <i class="fas fa-heart iconeDiv"></i>Romantique</div>
@@ -138,9 +142,7 @@
                
                </div>
                
-               
-
-          <div class="listHotel">  
+               <div class="listHotel">  
                     <div class="hotelDiv">
                          <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                               alt="Hotele de la mer ">
@@ -180,8 +182,7 @@
                     </div>
 
                     <div class="hotelDiv">
-                         <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                              alt="Hotel chez Amina">
+                         <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"  alt="Hotel chez Amina">
 
                          <div class="descriptioHotel">
                               <strong> Hotel chez Amina </strong>
@@ -199,23 +200,24 @@
                     </div>
                </div>
 
-
                <a href="#" class="titreSection"><strong>Afficher plus</strong></a><br>
 
           </div>
 
           <!--La liste des hotels les plus populaires -->
           <aside class="populaireDiv">
+              
                <div class="populaireTitre">
                     <h2>Les plus populaires </h2>
                     <i class="fas fa-chart-line"></i>
                </div>
 
                <div class="populaireHotel">
+
                     <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hotel Le soliel du matin">
 
                     <div class="populaireDescription">
-                         <h3>Hotel Le soliel du matin </h3>
+                         <h3> Hotel Le soliel du matin </h3>
                          <p> Nuit à partir de 128€</p>
                          <div class="star">
                               <i class="fas fa-star iconeColorBleu"></i>
@@ -243,7 +245,9 @@
                     </div>
                </div>
 
+
                <div class="populaireHotel">
+
                     <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hotel Tout bleu et Blanc">
 
                     <div class="populaireDescription">
@@ -258,6 +262,7 @@
                          </div>
                     </div>
                </div>
+
           </aside>
 
      </section><br><br>
@@ -315,11 +320,13 @@
                <a href="#">Conditions généralex de vente </a>
                <a href="#">Données et confidentialité </a>
           </div>
+
           <div class="footerDiv">
                <h4>Nos hébergements</h4>
                <a href="#">Charte qualité </a>
                <a href="#">Soumettre votre hotel </a>
           </div>
+
           <div class="footerDiv">
                <h4>Assistance</h4>
                <a href="#">Centre d'aide </a>

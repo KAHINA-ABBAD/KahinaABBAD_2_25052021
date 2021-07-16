@@ -1,6 +1,4 @@
 
-
-
 /* La police de site */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
@@ -16,14 +14,12 @@ body {
 }
 
 .logo {
-	margin: 10px 0px 30px 50px;
+	margin: 28px 0px 30px 50px;
 }
 
 .titreDiv {
 	margin-left: 50px;
 }
-
-
 
 .navList a{
 	margin-right: 20px;
@@ -53,12 +49,9 @@ body {
 	color: #0065FC;
 }
 
-
-
 .inscLien {
 	font-weight: bold;
 	color: #0065FC;
-
 }
 
 /* La barre de recherche */
@@ -177,8 +170,7 @@ input::placeholder {
 
 .listHotel {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .titreSection {
@@ -187,7 +179,6 @@ input::placeholder {
 }
 
 .hotelDiv {
-    width: 30%;
 	height: 230px;
 	background-color: white;
 	border-radius: 25px;
@@ -205,10 +196,9 @@ input::placeholder {
 }
 
 .hotelDiv img {
-	/*width: 30%;*/
+	
 	border-radius: 20px 20px 0 0;
 }
-
 
 /* La section Populaire */
 .populaireDiv {
@@ -257,7 +247,7 @@ input::placeholder {
 }
 
 .iconeColorGris {
-	color: #F2F2F2;
+	color:  #F2F2F2;
 }
 
 .star {
@@ -352,8 +342,6 @@ figcaption {
 }
 
 
-
-
 /* La partie footer */
 footer {
 	display: flex;
@@ -373,3 +361,101 @@ a {
 	text-decoration: none;
 	padding-bottom: 8px;
 }
+
+@media screen and (max-width : 1486px){
+	
+
+	.hotelDiv {
+		width: 29%;
+	}
+
+	.hotelDiv img {
+	    width: 100%;
+	}
+
+	.hebergDiv {
+		width: 65%;
+	}
+
+	.populaireDiv {
+		width: 35%;
+	}
+	
+}
+
+@media screen and (max-width : 1217px){
+	
+
+	.hotelDiv {
+		width: 45%;
+	}
+
+	.hotelDiv img {
+	    width: 100%;
+	}
+
+	.hebergDiv {
+		width: 60%;
+	}
+
+	.populaireDiv {
+		width: 40%;
+	}
+	
+}
+
+@media screen and (max-width : 1151px){
+	
+
+	.hotelDiv {
+		width: 43%;
+	}
+
+	.hotelDiv img {
+	    width: 100%;
+	}
+
+	.hebergDiv {
+		width: 60%;
+	}
+
+	.populaireDiv {
+		width: 40%;
+	}
+	
+}
+
+@media screen and (max-width : 1110px){
+	
+
+	.hotelDiv {
+		width: 43%;
+	}
+
+	.hotelDiv img {
+	    width: 100%;
+	}
+
+	.hebergDiv {
+		width: 60%;
+	}
+
+	.populaireDiv {
+		width: 40%;
+	}
+
+	.populaireDescription, 
+    h3{
+        font-size: 16px;
+    }
+
+	.populaireHotel img {
+		width: 130px;
+		height: 150px;
+	}
+
+}
+
+
+
+

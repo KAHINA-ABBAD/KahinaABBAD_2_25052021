@@ -422,6 +422,12 @@ a {
 	.populaireDiv {
 		width: 40%;
 	}
+
+	.filtrDiv {
+		
+		width: 90%;
+		
+	}
 	
 }
 
@@ -456,6 +462,10 @@ a {
 
 }
 
+@media screen and (max-width : 1024px){
+	
+
+}
 
 
 

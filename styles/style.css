@@ -1,16 +1,18 @@
-
 /* La police de site */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 
 body {
 	font-family: 'Raleway', sans-serif;
 	margin: 0px;
+	line-height: 20px;
 }
 
 .navBar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 
 .logo {
@@ -26,7 +28,6 @@ body {
 	font-size: 20px;
 	margin-right: 50px;
 }
-
 
 .titreBar {
 	color: black;
@@ -49,10 +50,30 @@ body {
 	color: #0065FC;
 }
 
+.lienInscrire  a:hover {
+	border-top: 2px solid #0065FC;
+	padding-top: 15px;
+	color: #0065FC;
+}
+
+.lienInscrire a:focus {
+	border-top: 2px solid #0065FC;
+	padding-top: 15px;
+	color: #0065FC;
+}
+
 .inscLien {
 	font-weight: bold;
 	color: #0065FC;
+	margin-right: 30px;
+	font-size: 20px;
 }
+
+.barNavigation{
+	display: flex;
+	margin-left: 50%;
+}
+
 
 /* La barre de recherche */
 .rechBar {
@@ -147,7 +168,6 @@ input::placeholder {
 	text-align: center;
 	padding-top: 2px;
 }
-
 
 /*La section hébergements */
 .hebergSection {
@@ -380,10 +400,14 @@ a {
 	.populaireDiv {
 		width: 35%;
 	}
+
+	.barNavigation{
+		margin-left: 50%;
+	}
 	
 }
 
-@media screen and (max-width : 1217px){
+@media screen and (max-width : 1237px){
 	
 
 	.hotelDiv {
@@ -400,6 +424,10 @@ a {
 
 	.populaireDiv {
 		width: 40%;
+	}
+
+	.barNavigation{
+		margin-left: 40%;
 	}
 	
 }
@@ -427,6 +455,10 @@ a {
 		
 		width: 90%;
 		
+	}
+
+	.barNavigation{
+		margin-left: 35%;
 	}
 	
 }
@@ -460,12 +492,25 @@ a {
 		height: 150px;
 	}
 
+	.barNavigation{
+		margin-left: 30%;
+	}
+
 }
 
-@media screen and (max-width : 1024px){
-	
+@media screen and (max-width : 1046px){
+
+
+	.populaireTitre h2 {
+        padding-right: 25%;
+    }
+
+	.body{
+		margin: 0px;
+	}
+
+	.barNavigation{
+		margin-left: 25%;
+	}
 
 }
-
-
-

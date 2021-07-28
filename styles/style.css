@@ -5,7 +5,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	margin: 0px;
-	line-height: 20px;
+	
 }
 
 .navBar {
@@ -17,6 +17,7 @@ body {
 
 .logo {
 	margin: 28px 0px 30px 50px;
+	flex: 1 ;
 }
 
 .titreDiv {
@@ -193,9 +194,10 @@ input::placeholder {
 	flex-wrap: wrap;
 }
 
+
 .titreSection {
-	padding-left: 2%;
-	padding-top: 2%;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .hotelDiv {
@@ -225,18 +227,18 @@ input::placeholder {
 	background-color: #F2F2F2;
 	width: 30%;
 	border-radius: 25px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .populaireTitre {
 	display: flex;
 	align-items: center;
-	padding-left: 5%;
+	padding-left: 20px;
 }
 
 .populaireHotel {
 	display: flex;
-	justify-content: space-between;
+/*	justify-content: space-between;*/
 	background-color: white;
 	border-radius: 25px;
 	margin: 10px 25px 25px 25px;
@@ -382,9 +384,8 @@ a {
 	padding-bottom: 8px;
 }
 
-@media screen and (max-width : 1486px){
+@media screen and (min-width: 768px ) and (max-width : 1440px){
 	
-
 	.hotelDiv {
 		width: 29%;
 	}
@@ -407,7 +408,8 @@ a {
 	
 }
 
-@media screen and (max-width : 1237px){
+
+@media screen and (min-width: 768px ) and (max-width : 1237px){
 	
 
 	.hotelDiv {
@@ -432,7 +434,7 @@ a {
 	
 }
 
-@media screen and (max-width : 1151px){
+@media screen and (min-width: 768px ) and (max-width : 1151px){
 	
 
 	.hotelDiv {
@@ -452,18 +454,15 @@ a {
 	}
 
 	.filtrDiv {
-		
 		width: 90%;
-		
 	}
 
 	.barNavigation{
 		margin-left: 35%;
 	}
-	
 }
 
-@media screen and (max-width : 1110px){
+@media screen and (min-width: 768px ) and (max-width : 1110px){
 	
 
 	.hotelDiv {
@@ -498,7 +497,7 @@ a {
 
 }
 
-@media screen and (max-width : 1046px){
+@media screen and (min-width: 768px ) and (max-width : 1046px){
 
 
 	.populaireTitre h2 {

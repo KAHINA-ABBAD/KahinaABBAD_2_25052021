@@ -1,17 +1,272 @@
-@media screen and (max-width: 414px ) {
+@media screen and (min-width: 320px) and (max-width: 426px) {
 
-    .barNavigation{
-		margin-left: 10%;
+	/* La partie navigation */
+
+	.navBar {
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content:flex-start;
+		
+	}
+	
+	.navList{
+	/*	align-self: flex-end;
+		/*padding-top: px;*/
+		order: 2;
+		flex:100%;
+		border-bottom: 2px solid #F2F2F2;
+		justify-content: space-around;
+		padding-bottom: 15px;
+		padding-right: 10px;
 	}
 
-    footer {
-        width: 100%;
-    }
+	.logo {
+		margin: 28px 0px 30px 10px;
+	}
+	
+	.titreDiv {
+		margin-left: 10px;
+	}
 
-    .titreBar {
-        font-size: 10px;
-    }
+	.titreDiv h2 {
+		padding-top: 15px;
+		font-size: 20px;
+	}
+	
+	.navList a{
+		font-size: 18px;
+		margin-right: 0px;
+	}
+	
+	
+	.titreBar {
+
+		padding: 0px 25px 20px 25px ;
+	}
+	
+	.navBar img {
+		width: 100px;
+		height: 45px;
+	}
+	
+	.navList a:hover {
+		border-bottom: 2px solid #0065FC;
+	}
+	
+	.navList a:focus {
+		border-bottom: 2px solid #0065FC;
+	}
+	
+	
+	.inscLien {
+		font-weight: bold;
+		color: #0065FC;
+		margin-right: 30px;
+		font-size: 19px;
+	}
+
+	/* La partie filtres */
+	.filtrDiv {
+		display: block;
+		flex-wrap: wrap;
+		width: 80%;
+		margin-left: 10px;
+	}
+
+	.filtrDiv>* {
+		flex: 1 1 160px;
+		margin: 10px;
+	}
+
+	.filtreTexte {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+/* La barre de recherche */
+.rechBar {
+	
+	margin-left: 10px;
+}
+	/* La ligne Info */
+	.infoDiv {
+		margin-left: 10px;
+	}
+
+	.infoDiv p {
+		padding-left: 12px;
+		font-size: 13px;
+	}
+
+
+	/* La section Populaire */
+	.populaireDiv {
+		width: 100%;
+		border-radius: 0px;
+		padding-top: 20px;
+	}
+
+	.listHotel img {
+		height: 130px;
+		width: 100%;
+	}
+
+	.populaireHotel {
+		margin: 20px;
+		height: 150px;
+	}
+
+	.populaireTitre h2 {
+		padding-right: 40%;
+		font-size: 20px;
+	}
+
+
+
+	/* La partie hébergement */
+	.hebergDiv {
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		width: 100%;
+		border-radius: 0px;
+		margin: 0px;
+		padding: 0px;
+	}	
+
+	.listHotel {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.titreSection {
+		margin: 15px 0px 15px 10px;
+		font-size: 22px;
+	}
+
+	.hotelDiv {
+		height: 220px;
+		border: 1px solid #F2F2F2;
+		box-shadow: 0 0 3em #F2F2F2;
+		background-color: white;
+		line-height: 15px;
+		padding: 5px;
+		margin: 0px 10px 8px;
+	}
+
+	.descriptioHotel p {
+
+		margin: 15px 0px 15px 0px ;
+	}
+
+	/* La section hébergement */
+	.hebergSection {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0px;
+		width: 100%;
+	}
+
+
+	.descriptioHotel, strong {
+		font-size: 16px;
+	}
+	/* La partie activité */
+	.activiteDiv {
+		display: flex;
+		flex-direction: column;
+		margin-left: 30px;
+	}
+
+	.blocUneImage img {
+		width: 100%;
+		height: 150px;
+	}
+
+	.partOne img {
+		width: 100%;
+		height: 150px;
+	}
+
+	.partTwo img {
+		width: 100%;
+		height: 150px;
+	}
+
+	.blocUneImage,
+	.blocDeuxImage .partOne ,
+	.blocDeuxImage .partTwo,
+	.blocDeuxImage .partThree 
+	
+	{
+		width: 100%;
+	
+	}
+
+	figure {
+		margin: 0px;
+	}
+
+	figcaption {
+		margin-bottom: 20px;
+	}
+
+
+
+	.partThree img {
+		width: 100%;
+		height: 150px;
+	}
+
+
+	/*La partie footer*/
+	footer {
+		display: flex;
+		flex-direction: column;
+		padding-left: 30px;
+		margin: 0px;
+		background-size: 100%;
+
+	}
 
 }
 
+@media screen and (max-width: 320px) {
 
+	.populaireHotel img {
+		width: 120px;
+		height: 130px;
+		margin-right: 15px;
+		
+	}
+	.populaireDescription, 
+    h3{
+        font-size: 16px;
+		margin-bottom: 0px;
+    }
+
+	.populaireDescription, 
+    p{
+        font-size: 12px;
+		margin-bottom: 10px;
+    }
+
+	.populaireHotel {
+		height: 130px;
+	}
+
+	.populaireTitre h2 {
+		padding-right: 32%;
+	}
+
+	.titreSection {
+		margin: 15px 0px 15px 0px;
+		font-size: 20px;
+	}
+
+	.titreDiv {
+		padding-left: 10px;
+		font-size: 20px;
+	}
+	
+}

@@ -1,17 +1,7 @@
-@media screen and (max-width: 955px) {
+@media screen and (min-width: 421px) and (max-width: 955px) {
 
     /*La barre de navigation */
-    .navList a {
-        margin-right: 15px;
-        font-size: 18px;
-        margin-right: 30px;
-    }
-
-
-    .titreDiv,
-    h2 {
-        font-size: 25px;
-    }
+   
 
     /* pour espacer les filtres */
     .filtrDiv {
@@ -101,7 +91,7 @@ figure{
 }
 
 .titreDiv {
-    margin-left: 30px;
+    margin-left: 50px;
     margin-bottom: 40px;
 }
 
@@ -152,8 +142,12 @@ figure{
     
 }
 
-@media screen  and (max-width : 738px){
+@media screen and (min-width: 421px) and (max-width : 739px){
     
+   /* La partie navigation */
+
+
+
     /* La section Populaire */
     .populaireTitre h2 {
         padding-right: 50%;
@@ -164,7 +158,6 @@ figure{
         margin-bottom: 20px;
         padding-bottom: 10px;
         border-radius: 30px;
-
     }
 
     .populaireHotel {
@@ -185,17 +178,45 @@ figure{
 
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (min-width: 421px) and (max-width: 740px) {
     footer {
         display: flex;
         flex-direction: column;
         padding-left: 30px;
         margin: 0px;
+        
+    }
+
+
+    .logo {
+        margin: 28px 0px 30px 30px;
+    }
+
+    .navList a {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .inscLien {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .titreDiv {
+        margin-left: 30px;
+    }
+
+    .rechBar {
+        margin-left: 30px;
+    }
+
+    .filtrDiv {
+        margin-left: 30px;
     }
 
 }
 
-@media screen and (max-width: 696px) {
+@media screen and (min-width: 421px) and (max-width: 696px) {
     .titreDiv h2 {
         font-size: 20px;
     }
@@ -204,7 +225,12 @@ figure{
         font-size: 18px;
     }
 
+    .listHotel img {
+        width: 100%; 
+      
+    }
 
+/*
     .barNavigation{
         display: flex;
         justify-content: space-between;
@@ -213,12 +239,9 @@ figure{
         margin-bottom: 30px;
     }
 
+*/
 
-    .navList{
-       border-bottom: 2px solid #F2F2F2;
-       padding-bottom: 20px; 
-       margin-top: 70px;    
-    }
+/*
 
     .navList a:hover {
         border-bottom: 2px solid #0065FC;
@@ -227,12 +250,29 @@ figure{
     .navList a:focus {
         border-bottom: 2px solid #0065FC;
         padding-bottom: 20px;
-        
     }
-
+    */
 }
 
-@media screen and (max-width: 520px){
+@media screen and (min-width: 421px) and (max-width: 550px){
+
+/**/
+
+.navBar {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+}
+
+.navList{
+/*	align-self: flex-end;
+    /*padding-top: px;*/
+    order: 2;
+    flex:100%;
+    border-bottom: 2px solid #F2F2F2;
+    justify-content: space-around;
+}
 
     .hebergSection {
         display: flex;
@@ -263,13 +303,10 @@ figure{
         margin: 0px;
     }
 
-
     .hotelDiv {
         width: 90%;
         height: 210px;
-        
         margin: 8px 10px;
-        
     }
 
     .hotelDiv img {
@@ -289,14 +326,12 @@ figure{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15px ;
-        
+        margin: 15px ;        
     }
 
     .activiteDiv img {
         width: 100%;
-        height: 150px;
-        
+        height: 150px;       
     }
 
     .blocUneImage,
@@ -314,37 +349,25 @@ figure{
 
 .descriptioHotel, strong {
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .titreEnGras {
     font-size: 20px;
-   
 }
  
 figcaption {
 	text-align: left;	
 }
-
+/*
 .barNavigation{
     display: flex;
     flex-direction: column-reverse;
-    
 }
-
+*/
 .navList{
     display: flex;
     
 }
-
-/*
-.lienInscrire{
-    margin-top: 55px;
-    margin-left: 150px;
-    margin-bottom: 30px;
-}
-*/
-
-
 
 }

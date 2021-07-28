@@ -230,6 +230,14 @@ figure{
       
     }
 
+    .filtrDiv {
+    
+        width: 40%;
+    }
+
+
+
+
 /*
     .barNavigation{
         display: flex;
@@ -254,7 +262,7 @@ figure{
     */
 }
 
-@media screen and (min-width: 421px) and (max-width: 550px){
+@media screen and (min-width: 421px) and (max-width: 575px){
 
 /**/
 
@@ -353,7 +361,7 @@ figure{
 }
 
 .titreEnGras {
-    font-size: 20px;
+    font-size: 18px;
 }
  
 figcaption {
@@ -369,5 +377,11 @@ figcaption {
     display: flex;
     
 }
+
+.filtrDiv {
+    
+    width: 45%;
+}
+
 
 }

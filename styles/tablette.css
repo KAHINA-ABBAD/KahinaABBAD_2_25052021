@@ -225,6 +225,7 @@
 @media screen and (min-width: 421px) and (max-width: 696px) {
     .titreDiv h2 {
         font-size: 20px;
+        padding-top: 15px;
     }
 
     .titreDiv p {
@@ -270,7 +271,7 @@
 
     .navList a:hover {
         border-bottom: 3px solid #0065FC;
-        /*	padding-bottom: 15px;*/
+        padding-bottom: 15px;
         border-top: none;
         padding-top: 0px;
     }

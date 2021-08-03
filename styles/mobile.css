@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 320px) and (max-width: 426px) {
 
 	/* La partie navigation */
@@ -9,15 +10,20 @@
 
 	}
 
+	.navList a {
+		
+		margin-right: 26px;
+		padding-left: 29px;
+		padding-right: 20px;
+	}
+
 	.navList {
-		/*	align-self: flex-end;
-		/*padding-top: px;*/
 		order: 2;
 		flex: 100%;
-		border-bottom: 2px solid #F2F2F2;
-		justify-content: space-around;
+		border-bottom: 3px solid #F2F2F2;
+		justify-content: space-between;
 		padding-bottom: 15px;
-		padding-right: 10px;
+		
 	}
 
 	.logo {
@@ -33,30 +39,16 @@
 		font-size: 18px;
 	}
 
-	.navList a {
-		font-size: 18px;
-		margin-right: 0px;
-	}
-
+	/*
 
 	.titreBar {
-
-		padding: 0px 25px 0px 25px;
-	}
+		padding: 0px 30px 0px 40px;
+	}*/
 
 	.navBar img {
 		width: 100px;
 		height: 45px;
 	}
-
-	.navList a:hover {
-		border-bottom: 2px solid #0065FC;
-	}
-
-	.navList a:focus {
-		border-bottom: 2px solid #0065FC;
-	}
-
 
 	.inscLien {
 		font-weight: bold;
@@ -96,7 +88,7 @@
 	}
 
 	.infoDiv p {
-		padding-left: 12px;
+		padding-left: 5px;
 		font-size: 13px;
 	}
 
@@ -114,7 +106,7 @@
 	}
 
 	.populaireHotel {
-		margin: 20px;
+		margin: 10px;
 		height: 150px;
 	}
 
@@ -142,7 +134,7 @@
 	}
 
 	.titreSection {
-		margin: 15px 0px 15px 10px;
+	/*	margin: 15px 0px 15px 10px; */
 		font-size: 22px;
 	}
 
@@ -211,6 +203,7 @@
 
 	figcaption {
 		margin-bottom: 20px;
+		text-align: left;
 	}
 
 
@@ -226,7 +219,7 @@
 
 
 	.buttonDiv {
-		
+
 		width: 45px;
 		border-radius: 10px;
 	}
@@ -235,7 +228,7 @@
 		margin-left: 35px;
 		margin-top: 20px;
 	}
-	
+
 	/*La partie footer*/
 	footer {
 		display: flex;
@@ -247,53 +240,68 @@
 	}
 
 	.titreEnGras {
-		font-size: 18px;
-		
+		font-size: 16px;
+
+	}
+
+	.buttonDiv {
+		display: none;
+	}
+
+	.buttonDivResp {
+		display: initial;
+	}
+
+	.navList a:hover {
+		border-bottom: 3px solid #0065FC;
+	    border-top: none; 
+		padding-bottom: 15px;
+		color: #0065FC;
+	}
+
+	.navList a:focus {
+		border-bottom: 3px solid #0065FC;
+		border-top: none;
+		padding-bottom: 15px;
+		color: #0065FC;
 	}
 
 }
 
-@media screen  and (max-width: 376px){
-	
+@media screen and (max-width: 375px) {
+
+
 	.navList {
-		padding-bottom: 15px; 
-		
+		padding-bottom: 15px;
 	}
 
 	.searchDiv {
 		width: 190px;
-		
 	}
 
 	.buttonDiv {
-		
 		width: 45px;
 		border-radius: 10px;
 	}
 
 	.rechBar {
-		margin-left: 35px;
+		margin-left: 30px;
 		margin-top: 30px;
 	}
+
 	.filtrDiv {
-		
 		width: 60%;
-		
 	}
-
-
-
 
 	.populaireHotel img {
 		width: 120px;
 		height: 130px;
 		margin-right: 15px;
-
 	}
 
 	.populaireDescription,
 	h3 {
-		font-size: 16px;
+		font-size: 10px;
 		margin-bottom: 0px;
 	}
 
@@ -307,17 +315,21 @@
 		height: 130px;
 	}
 
+	.navList a {
+		margin-right: 19px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 338px) {
 
 	.populaireHotel img {
 		width: 120px;
 		height: 130px;
 		margin-right: 15px;
-
 	}
 
 	.populaireDescription,
@@ -356,7 +368,7 @@
 	}
 
 	.buttonDiv {
-		
+
 		width: 45px;
 		border-radius: 10px;
 	}
@@ -366,10 +378,16 @@
 	}
 
 	.filtrDiv {
-		
 		width: 65%;
-		
 	}
 
-
+	.navList a {
+		margin-right: 14px;
+		padding-left: 15px;
+		padding-right: 20px;
+	}
+/*
+	.titreBar {
+		padding: 0px 25px 0px 36px;
+	}*/
 }

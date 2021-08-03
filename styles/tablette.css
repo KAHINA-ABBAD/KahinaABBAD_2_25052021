@@ -1,7 +1,7 @@
 @media screen and (min-width: 421px) and (max-width: 955px) {
 
     /*La barre de navigation */
-   
+
 
     /* pour espacer les filtres */
     .filtrDiv {
@@ -53,60 +53,66 @@
     .activiteDiv {
         display: flex;
         flex-wrap: wrap;
-        margin : 30px;
+        margin: 30px;
     }
 
 
-.blocUneImage,
-.blocDeuxImage,
-.partOne,
-.partTwo,
-.partThree
+    .blocUneImage,
+    .blocDeuxImage,
+    .partOne,
+    .partTwo,
+    .partThree {
+        width: 48%;
+        margin-right: 0px;
+    }
 
-{
-width: 48%;
-margin-right: 0px;
+    .blocUneImage,
+    .blocDeuxImage,
+    .partOne,
+    .partTwo,
+    .partThree {
+
+        display: flex;
+
+    }
+
+    figure {
+        margin-left: 10px;
+
+    }
+
+    .partOne,
+    img,
+    .partTwo,
+    img,
+    .partThree,
+    img {
+        width: 100%;
+
+    }
+
+    .titreDiv {
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+
+    .barNavigation {
+        margin-left: 20%;
+    }
+
 }
- 
-.blocUneImage,
-.blocDeuxImage,
-.partOne,
-.partTwo,
-.partThree {
 
-	display: flex;
-	
-}
-
-figure{
-	margin-left: 10px;
-    
-}
-
-.partOne, img,
-.partTwo, img,
-.partThree, img {
-	width: 100%;
-	
-}
-
-.titreDiv {
-    margin-left: 50px;
-    margin-bottom: 40px;
-}
-
-.barNavigation{
-    margin-left: 20%;
-}
-
-}
-
-@media screen and (min-width: 738px) and (max-width: 955px ) {
+@media screen and (min-width: 738px) and (max-width: 955px) {
 
 
     /* La partie populaire */
     .populaireTitre h2 {
         padding-right: 60%;
+    }
+
+    .navList a {
+
+        margin-right: 30px;
     }
 
     .populaireDiv {
@@ -139,12 +145,12 @@ figure{
         border-radius: 20px;
         margin-right: 0px;
     }
-    
+
 }
 
-@media screen and (min-width: 421px) and (max-width : 739px){
-    
-   /* La partie navigation */
+@media screen and (min-width: 421px) and (max-width : 739px) {
+
+    /* La partie navigation */
 
 
 
@@ -163,7 +169,7 @@ figure{
     .populaireHotel {
         display: flex;
         justify-content: start;
-       
+
     }
 
     .populaireHotel img {
@@ -171,8 +177,8 @@ figure{
         height: 150px;
     }
 
-    .populaireDescription, 
-    h3{
+    .populaireDescription,
+    h3 {
         font-size: 18px;
     }
 
@@ -184,7 +190,7 @@ figure{
         flex-direction: column;
         padding-left: 30px;
         margin: 0px;
-        
+
     }
 
 
@@ -226,61 +232,56 @@ figure{
     }
 
     .listHotel img {
-        width: 100%; 
-      
+        width: 100%;
     }
 
     .filtrDiv {
-    
         width: 40%;
     }
 
+}
 
 
+@media screen and (min-width: 421px) and (max-width: 575px) {
 
-/*
-    .barNavigation{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20%;
-        margin-left: 5%;
-        margin-bottom: 30px;
+
+    .navBar {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+
     }
 
-*/
+    .navList a {
+        font-size: 22px;
+        margin-right: 12px;
+        padding-left: 40px;
+        padding-right: 27px;
+    }
 
-/*
+    .navList {
+        order: 2;
+        flex: 100%;
+        border-bottom: 3px solid #F2F2F2;
+        justify-content: space-between;
+        /* padding-bottom: 15px;*/
+
+    }
 
     .navList a:hover {
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
+        /*	padding-bottom: 15px;*/
+        border-top: none;
+        padding-top: 0px;
     }
-    
+
     .navList a:focus {
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 20px;
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 15px;
+        border-top: none;
+        padding-top: 0px;
     }
-    */
-}
 
-@media screen and (min-width: 421px) and (max-width: 575px){
-
-/**/
-
-.navBar {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:flex-start;
-    
-}
-
-.navList{
-/*	align-self: flex-end;
-    /*padding-top: px;*/
-    order: 2;
-    flex:100%;
-    border-bottom: 2px solid #F2F2F2;
-    justify-content: space-around;
-}
 
     .hebergSection {
         display: flex;
@@ -290,7 +291,7 @@ figure{
 
     .populaireDiv {
         background-color: #F2F2F2;
-        border-radius: 0px;        
+        border-radius: 0px;
     }
 
     .hebergDiv {
@@ -323,7 +324,7 @@ figure{
     }
 
     .populaireTitre h2 {
-        padding-right: 45%;
+        padding-right: 40%;
     }
 
     .titreSection {
@@ -334,12 +335,12 @@ figure{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15px ;        
+        margin: 15px;
     }
 
     .activiteDiv img {
         width: 100%;
-        height: 150px;       
+        height: 150px;
     }
 
     .blocUneImage,
@@ -350,38 +351,48 @@ figure{
         width: 100%;
         margin: 0px;
     }
-.descriptioHotel {
-    line-height: 10px;
-}
+
+    .descriptioHotel {
+        line-height: 10px;
+    }
 
 
-.descriptioHotel, strong {
-    padding-top: 10px;
-    font-size: 18px;
-}
+    .descriptioHotel,
+    strong {
+        padding-top: 10px;
+        font-size: 18px;
+    }
 
-.titreEnGras {
-    font-size: 18px;
-}
- 
-figcaption {
-	text-align: left;	
-}
-/*
+    .titreEnGras {
+        font-size: 18px;
+    }
+
+    figcaption {
+        text-align: left;
+    }
+
+    /*
 .barNavigation{
     display: flex;
     flex-direction: column-reverse;
 }
 */
-.navList{
-    display: flex;
-    
-}
+    .navList {
+        display: flex;
 
-.filtrDiv {
-    
-    width: 45%;
-}
+    }
 
+    .filtrDiv {
 
+        width: 45%;
+    }
+
+    .inscLien {
+        margin-right: 25px;
+        font-size: 21px;
+    }
+
+    .navBar img {
+        height: 65px;
+    }
 }

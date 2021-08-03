@@ -25,9 +25,8 @@ body {
 }
 
 .navList a{
-	margin-right: 20px;
 	font-size: 20px;
-	margin-right: 50px;
+	margin-right: 70px;
 }
 
 .titreBar {
@@ -50,6 +49,7 @@ body {
 	padding-top: 15px;
 	color: #0065FC;
 }
+
 
 .lienInscrire  a:hover {
 	border-top: 2px solid #0065FC;
@@ -110,6 +110,17 @@ body {
 	border-style: none;
 }
 
+.buttonDivResp {
+	height: 38px;
+	width: 38px;
+	background-color: #0065FC;
+	border-radius: 10px;
+	color: white;
+	border-style: none;
+	display: none;
+	margin-left: -5px;
+}
+	
 input::placeholder {
 	padding-left: 10px;
 	color: black;
@@ -271,6 +282,7 @@ input::placeholder {
 .iconeColorGris {
 	color:  #F2F2F2;
 }
+
 
 .star {
 	padding-top: 10px;

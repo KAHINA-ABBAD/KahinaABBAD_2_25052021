@@ -5,12 +5,15 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width , initial-scale=1.0">
 
-     <!--Insertion de la bibliothèque AWESOME-->
-     <link rel="stylesheet" href="styles/style.css">
-     <link rel="stylesheet" href="styles/all.min.css">
-     <link rel="stylesheet" href="styles/mobile.css">
-     <link rel="stylesheet" href="styles/tablette.css">
-     <link rel="stylesheet" href="webfonts/">
+     
+     <link rel="stylesheet" href="styles/style.css" type="text/css" />
+
+     <!--Insertion de la bibliothèque Font AWESOME-->
+     <link rel="stylesheet" href="styles/all.min.css" type="text/css" />
+
+     <link rel="stylesheet" href="styles/mobile.css" type="text/css" />
+     <link rel="stylesheet" href="styles/tablette.css" type="text/css" />
+     <link rel="stylesheet" href="webfonts/" type="text/css" />
 
      <title> Reservia </title>
 
@@ -29,8 +32,8 @@
                     </div>
 
                     <div class="navList">
-                         <a href="#" class="titreBar"> Hébergements </a>
-                         <a href="#" class="titreBar"> Activités </a>
+                         <a href="#hebergement" class="titreBar"> Hébergements </a>
+                         <a href="#activité" class="titreBar"> Activités </a>
                     </div>
 
                     <div class="lienInscrire">
@@ -40,9 +43,6 @@
                </div>
           </nav>
 
-
-
-
           <!--Le titre de site-->
           <div class="titreDiv">
                <h2>Trouvez votre hébergements pour des vacances de rêve </h2>
@@ -50,6 +50,7 @@
           </div>
 
      </header>
+
 
      <!--La barre de recherche -->
      <div class="rechBar">
@@ -63,10 +64,14 @@
      <!--Les filtres -->
      <div class="filtrDiv">
           <h3 class="filtreRecherche">Filtres </h3>
-          <div class="filtreTexte"> <i class="fas fa-money-bill-wave iconeDiv "></i>Économique </div>
-          <div class="filtreTexte"> <i class="fas fa-child iconeDiv"></i>Familial</div>
-          <div class="filtreTexte"> <i class="fas fa-heart iconeDiv"></i>Romantique</div>
-          <div class="filtreTexte"> <i class="fas fa-dog iconeDiv"></i>Animaux autorisés</div>
+          <div class="ecoFami">
+               <div class="filtreTexte"> <i class="fas fa-money-bill-wave iconeDiv "></i>Économique </div>
+               <div class="filtreTexte"> <i class="fas fa-child iconeDiv"></i>Familial</div>
+
+          </div>
+         
+          <div class="filtreTexte espaceRom"> <i class="fas fa-heart iconeDiv"></i>Romantique</div>
+          <div class="filtreTexte espaceAnim"> <i class="fas fa-dog iconeDiv"></i>Animaux autorisés</div>
      </div> <br>
 
      <!--La ligne d'information -->
@@ -81,7 +86,7 @@
           <!--La liste des hotels -->
           <div class="hebergDiv">
 
-               <h2 class="titreSection"> Hébergements à Marseille </h2>
+               <h2 class="titreSection" id="hebergement"> Hébergements à Marseille </h2>
 
                <div class="listHotel">
 
@@ -270,7 +275,7 @@
 
 
      <!-- La partie Activités-->
-     <h2 class="titreDiv">Activités à Marseille</h2>
+     <h2 class="titreDiv" id="activité">Activités à Marseille</h2>
 
      <div class="activiteDiv">
 
@@ -339,6 +344,5 @@
      </footer>
 
 </body>
-
 
 </html>

@@ -1,7 +1,5 @@
 @media screen and (min-width: 421px) and (max-width: 955px) {
 
-    /*La barre de navigation */
-
 
     /* pour espacer les filtres */
     .filtrDiv {
@@ -21,6 +19,7 @@
         align-items: center;
     }
 
+    
     /*La partie hebergement*/
     .hebergSection {
         display: flex;
@@ -150,10 +149,6 @@
 
 @media screen and (min-width: 421px) and (max-width : 739px) {
 
-    /* La partie navigation */
-
-
-
     /* La section Populaire */
     .populaireTitre h2 {
         padding-right: 50%;
@@ -181,6 +176,10 @@
     h3 {
         font-size: 18px;
     }
+
+
+
+   
 
 }
 
@@ -372,21 +371,23 @@
         text-align: left;
     }
 
-    /*
-.barNavigation{
-    display: flex;
-    flex-direction: column-reverse;
-}
-*/
     .navList {
         display: flex;
 
     }
 
+    /* pour espacer les filtres */
     .filtrDiv {
-
+        display: block;
+        flex-wrap: wrap;
         width: 45%;
     }
+
+    .filtrDiv>* {
+        flex: 1 1 160px;
+        margin: 10px;
+    }
+
 
     .inscLien {
         margin-right: 25px;

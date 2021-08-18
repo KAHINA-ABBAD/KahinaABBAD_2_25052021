@@ -1,4 +1,4 @@
-/* La police de site */
+/* La police de site  RALEWAY*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
@@ -50,10 +50,13 @@ body {
 	color: #0065FC;
 }
 
-
 .lienInscrire  a:hover {
 	border-top: 2px solid #0065FC;
 	padding-top: 15px;
+	color: #0065FC;
+}
+
+.filtreTexte:hover{
 	color: #0065FC;
 }
 
@@ -128,22 +131,28 @@ input::placeholder {
 }
 
 /* Les filtres */
-
 .filtrDiv {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 70%;
+	width: 80%;
 	margin-left: 50px;
 }
 
+.ecoFami{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 35%;
+	margin-left: 50px;
+}
 
 .filtreTexte {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-weight: bold;
-	border: 2px solid #F2F2F2;
+	border: 3px solid #F2F2F2;
 	height: 38px;
 	border-radius: 30px;
 	padding-right: 20px;
@@ -171,7 +180,6 @@ input::placeholder {
 	padding-left: 10px;
 }
 
-
 .iconeInfo {
 	border: 2px solid #F2F2F2;
 	border-radius: 25px;
@@ -188,7 +196,6 @@ input::placeholder {
 	margin-right: 50px;
 }
 
-
 .hebergDiv {
 	display: flex;
 	flex-direction: column;
@@ -204,7 +211,6 @@ input::placeholder {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 
 .titreSection {
     padding-left: 20px;
@@ -289,7 +295,6 @@ input::placeholder {
 }
 
 /* La partie activité */
-
 .activiteDiv {
 	display: flex;
 	align-items: center;
@@ -316,7 +321,6 @@ input::placeholder {
 }
 
 .partTwo img {
-
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	width: 100%;

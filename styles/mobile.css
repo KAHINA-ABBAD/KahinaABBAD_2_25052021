@@ -16,13 +16,13 @@
 		padding-right: 20px;
 	}
 
+
 	.navList {
 		order: 2;
 		flex: 100%;
 		border-bottom: 3px solid #F2F2F2;
 		justify-content: space-between;
 		padding-bottom: 15px;
-
 	}
 
 	.logo {
@@ -50,11 +50,20 @@
 		font-size: 19px;
 	}
 
+	.lienInscrire a:hover {
+		padding: 20px 10px 0px 12px;
+	}
+
+	.lienInscrire a:focus {
+		padding: 20px 10px 0px 12px;
+	
+	}
+
 	/* La partie filtres */
 	.filtrDiv {
 		display: block;
 		flex-wrap: wrap;
-		width: 55%;
+		width: 278px;
 		margin-left: 10px;
 	}
 
@@ -75,11 +84,11 @@
 
 
 	.filtrDiv .espaceAnim{
-		width: 100%;
+		width: 185px;
 	} 
 
 	.filtrDiv .espaceRom{
-		width: 100%;
+		width: 140px;
 	} 
 
 
@@ -295,10 +304,6 @@
 		margin-top: 30px;
 	}
 
-	.filtrDiv {
-		width: 60%;
-	}
-
 	.populaireHotel img {
 		width: 120px;
 		height: 130px;
@@ -329,11 +334,11 @@
 
 
 	.filtrDiv .espaceAnim{
-		width: 100%;
+		width: 185px;
 	} 
 
 	.filtrDiv .espaceRom{
-		width: 100%;
+		width: 140px;
 	} 
 
 }

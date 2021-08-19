@@ -5,7 +5,6 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	margin: 0px;
-	
 }
 
 .navBar {
@@ -22,6 +21,9 @@ body {
 
 .titreDiv {
 	margin-left: 50px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .navList a{
@@ -40,19 +42,21 @@ body {
 
 .navList a:hover {
 	border-top: 2px solid #0065FC;
-	padding-top: 15px;
+padding: 41px 10px 0px 12px;
+	
 	color: #0065FC;
 }
 
 .navList a:focus {
 	border-top: 2px solid #0065FC;
-	padding-top: 15px;
+	padding: 41px 10px 0px 12px;
+	
 	color: #0065FC;
 }
 
 .lienInscrire  a:hover {
 	border-top: 2px solid #0065FC;
-	padding-top: 15px;
+	padding: 41px 10px 0px 12px;
 	color: #0065FC;
 }
 
@@ -62,7 +66,7 @@ body {
 
 .lienInscrire a:focus {
 	border-top: 2px solid #0065FC;
-	padding-top: 15px;
+	padding: 41px 10px 0px 12px;
 	color: #0065FC;
 }
 
@@ -135,7 +139,7 @@ input::placeholder {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 80%;
+	width: 850px;
 	margin-left: 50px;
 }
 
@@ -143,7 +147,7 @@ input::placeholder {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 35%;
+	width: 38%;
 	margin-left: 50px;
 }
 
@@ -213,8 +217,16 @@ input::placeholder {
 }
 
 .titreSection {
-    padding-left: 20px;
-    padding-top: 10px;
+
+	padding: 30px 0px 6px 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titrePop{
+	/*padding: 30px 0px 6px 16px;*/
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .hotelDiv {
@@ -226,8 +238,9 @@ input::placeholder {
 }
 
 .descriptioHotel {
-	padding-top: 5px;
-	padding-left: 10px;
+	padding-top: 15px;
+    padding-left: 10px;
+    line-height: 10px;
 }
 
 .descriptioHotel, strong{
@@ -251,6 +264,8 @@ input::placeholder {
 	display: flex;
 	align-items: center;
 	padding-left: 20px;
+	padding-top: 23px;
+	padding-bottom: 10px;
 }
 
 .populaireHotel {
@@ -271,7 +286,8 @@ input::placeholder {
 	object-fit: cover;
 }
 
-.populaireTitre h2 {
+.populaireTitre .titrePop {
+
 	padding-right: 30%;
 }
 
@@ -469,9 +485,6 @@ a {
 		width: 40%;
 	}
 
-	.filtrDiv {
-		width: 90%;
-	}
 
 	.barNavigation{
 		margin-left: 35%;
@@ -510,7 +523,6 @@ a {
 	.barNavigation{
 		margin-left: 30%;
 	}
-
 }
 
 @media screen and (min-width: 768px ) and (max-width : 1046px){
